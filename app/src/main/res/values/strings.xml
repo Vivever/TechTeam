@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TechTeam</string>
+    <string name="textview">TextView</string>
+    <string name="hello">Hello</string>
+    <string name="no">No</string>
+    <string-array name="Avengers">
+        <item>TonyStark</item>
+        <item>RogersSteve</item>
+        <item>NatashaRomonaff</item>
+        <item>Suri</item>
+        <item>Tchalla</item>
+        <item>Doctor Strange</item>
+        <item>DoctorBanner</item>
+        <item>WandaMaximoff</item>
+        <item>PietroMaximoff</item>
+        <item>Barton</item>
+
+    </string-array>
+</resources>

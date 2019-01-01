@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/notification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_weight="10"
+        android:text="@string/hello"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="165dp"
+        android:layout_height="31dp"
+        android:layout_weight="10"
+        android:ems="10"
+        android:inputType="date"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="169dp"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:ems="10"
+        android:inputType="time"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <RelativeLayout
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/no" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="-54dp"
+            android:layout_toEndOf="@+id/button"
+            android:text="OK" />
+    </RelativeLayout>
+
+</LinearLayout>
